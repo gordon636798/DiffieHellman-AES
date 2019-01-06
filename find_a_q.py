@@ -1,7 +1,7 @@
 from gmpy2 import *
 
 #隨機生成一個數rand
-rand=mpz_rrandomb(random_state(),9)
+rand=mpz_rrandomb(random_state(),30)
 print("random number ",end='')
 print(rand)
 
